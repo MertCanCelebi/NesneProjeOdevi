@@ -30,8 +30,7 @@ public class veritabani implements Iveritabani {
 
 	            Statement stmt = conn.createStatement();
 	            ResultSet rs = stmt.executeQuery(sql);
-	           
-	            //***** Bağlantı sonlandırma *****
+
 	            conn.close();	
 	            
 	            while(rs.next())
@@ -67,7 +66,7 @@ public class veritabani implements Iveritabani {
 	            ResultSet rs = stmt.executeQuery(sql);
 	            
 	            
-	            //***** Bağlantı sonlandırma *****
+	            
 	            conn.close();	        
 	            while(rs.next())
 	            {
